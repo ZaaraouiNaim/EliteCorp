@@ -1,0 +1,357 @@
+/**
+* Theme Name: ELITECORP.
+* Updated: Sep 21 2023 with Bootstrap v5.3.1
+* Author: Naim Zaaraoui
+* PSD Designer: -------
+*/
+
+/* GENERAL */
+:root {
+  --primary-color: #08526d;
+  --secondary-color: #ec1c23;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+/* START UPPER BAR */
+.upper-bar {
+  font-size: 0.875rem;
+  background: var(--primary-color);
+}
+
+.upper-bar span {
+  color: #bfc6c9;
+}
+
+.upper-bar .get-quote {
+  border: 1px solid var(--secondary-color);
+}
+/* END UPPER BAR */
+
+/* START NAVBAR */
+.navbar-brand span:first-child,
+.offcanvas-title span:first-child {
+  color: var(--primary-color);
+}
+
+.navbar-brand span:last-child,
+.offcanvas-title span:last-child {
+  color: var(--secondary-color);
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 15px;
+  color: var(--primary-color);
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--secondary-color);
+}
+
+/* END NAVBAR */
+
+/* START SLIDER */
+.slider .carousel-item {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.slider .first-slide {
+  background-image: url("../imgs/slider01.jpg");
+}
+
+.slider .second-slide {
+  background-image: url("../imgs/slider02.jpg");
+}
+
+.slider .third-slide {
+  background-image: url("../imgs/slider03.jpeg");
+}
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(61, 70, 77, 0.5);
+  z-index: 1;
+}
+
+.carousel-caption h1 {
+  max-width: 900px;
+  letter-spacing: 1px;
+}
+
+.carousel-caption h1 span {
+  background-color: var(--secondary-color);
+}
+
+.carousel-caption a {
+  background-color: var(--secondary-color);
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 6px;
+}
+
+.slider .start-btn {
+  letter-spacing: 2px;
+}
+/* END SLIDER */
+
+/* START FEATURES */
+.features {
+  padding: 50px 0;
+}
+
+.features i {
+  width: 50px;
+  height: 50px;
+  background-color: var(--secondary-color);
+  line-height: 48px;
+}
+
+.features h4 {
+  color: var(--primary-color);
+}
+/* END FEATURES */
+
+/* START OVERVIEW */
+.overview {
+  padding: 100px 0;
+  background-color: #f0f5f7;
+}
+
+.overview p {
+  width: 70%;
+  line-height: 1.7;
+}
+
+@media(max-width: 991px) {
+  .overview p {
+    width: 100%;
+  }
+}
+
+.overview h4,
+.overview button {
+  letter-spacing: 2px;
+}
+
+.overview button {
+  background-color: var(--secondary-color);
+}
+/* END OVERVIEW */
+
+/* START FEATURED WORK */
+.featured-work {
+  padding: 100px 0;
+}
+
+.featured-work p {
+  line-height: 1.7;
+}
+
+@media(max-width: 991px) {
+  .featured-work p {
+    width: 100% !important;
+  }
+}
+
+.featured-work ul li {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.featured-work ul li:hover,
+.featured-work ul li.active {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: 2px solid var(--secondary-color);
+  cursor: pointer;
+}
+
+.featured-work img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.glightbox-clean .gslide-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+}
+
+.gslide-description p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.glightbox-clean .gslide-desc a {
+  background-color: var(--secondary-color);
+  letter-spacing: 1px;
+}
+/* END FEATURED WORK */
+
+/* START LATEST POSTS */
+.latest-posts {
+  padding-bottom: 100px;
+}
+
+.latest-posts p {
+  line-height: 1.7;
+}
+
+@media(max-width: 991px) {
+  .latest-posts p {
+    width: 100% !important;
+  }
+}
+
+.latest-posts .card .card-title {
+  color: var(--primary-color);
+}
+
+.latest-posts .card .card-subtitle {
+  font-size: 0.9rem;
+}
+
+.latest-posts .card .card-link {
+  color: var(--secondary-color);
+}
+/* END LATEST POSTS */
+
+/* START TESTIMONIALS */
+.testimonials {
+  background-image: url("../imgs/testimonials.jpg");
+  background-size: cover;
+}
+
+#testimonials img {
+  width: 150px;
+  height: 150px;
+}
+
+#testimonials p {
+  max-width: 500px;
+  line-height: 1.7;
+}
+/* END TESTIMONIALS */
+/* START LATEST POSTS */
+.pricing-table {
+  padding: 100px 0;
+  background-color: #f0f5f7;
+}
+
+.pricing-table p {
+  line-height: 1.7;
+}
+
+@media(max-width: 991px) {
+  .pricing-table p {
+    width: 100% !important;
+  }
+}
+
+.pricing-table .card.corporate {
+  transform: translateY(-1rem);
+}
+
+.pricing-table .card .card-title,
+.pricing-table .card .card-text {
+  color: var(--primary-color);
+}
+
+.pricing-table .card .card-subtitle {
+  font-size: 0.9rem;
+}
+
+ .pricing-table .card.corporate .card-text{
+  background-color: var(--secondary-color);
+}
+
+.pricing-table .card .card-link {
+  background-color: var(--secondary-color);
+  letter-spacing: 2px;
+}
+
+.pricing-table .card.corporate .card-link {
+  background-color: var(--primary-color);
+}
+
+/* END PRICING TABLE */
+/* START WHY CHOOSE US */
+.choose-us .text {
+  background-color: var(--primary-color);
+}
+
+.choose-us .text p {
+  line-height: 1.7;
+}
+
+.choose-us .text .read-more {
+  background-color: var(--secondary-color);
+  letter-spacing: 2px;
+}
+/* END WHY CHOOSE US */
+/* START STATISTICS */
+.stats {
+  padding: 100px 0;
+  color: var(--primary-color);
+}
+
+.stats p {
+  color: var(--secondary-color);
+}
+/* END STATISTICS */
+/* START CONTACT US */
+.contact-us {
+  background-color: var(--secondary-color);
+}
+
+.contact-us a {
+  letter-spacing: 2px
+}
+/* END CONTACT US */
+/* START FOOTER */
+footer {
+padding: 100px 0;
+}
+
+footer .logo span:first-child {
+  color: var(--primary-color);
+}
+
+footer .logo span:last-child {
+  color: var(--secondary-color);
+}
+
+footer .read-more {
+  color: var(--primary-color);
+}
+
+footer .site-info p {
+  line-height: 1.7;
+}
+
+footer .helpful-links h2,
+footer .contact h2 {
+  color: var(--primary-color);
+}
+
+footer .helpful-links i {
+  color: var(--secondary-color);
+  font-size: 0.875rem;
+}
+/* END FOOTER */
+/* START COPYRIGHT */
+.copyright a {
+color: var(--primary-color);
+}
+/* END COPYRIGHT */

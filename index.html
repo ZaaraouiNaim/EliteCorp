@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ELITECORP | BOOTSTRAP DESIGN" />
+    <meta name="keywords" content="EliteCorp, Bootstrap5" />
+    <title>ELITECORP | BOOTSTRAP DESIGN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- GLIGHTBOX LIBRARY -->
+    <link rel="stylesheet" href="lib/glightbox/glightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- START UPPER BAR -->
+    <div class="upper-bar text-light p-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-sm d-flex flex-wrap align-items-center justify-content-center justify-content-sm-start gap-2 mb-2 mb-sm-0"
+          >
+            <div>
+              <i class="fa fa-phone me-1"></i>
+              <span>+216 22 222 222</span>
+            </div>
+            <div>
+              <i class="fa fa-envelope me-1"></i>
+              <span>elite@gmail.com</span>
+            </div>
+          </div>
+          <div
+            class="col-sm d-flex flex-wrap align-items-center justify-content-center justify-content-sm-end gap-2"
+          >
+            <span>Let's Work Together</span>
+            <span class="get-quote btn btn-sm rounded-0 ms-3">Get Quote</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END UPPER BAR -->
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <span class="h2 fw-bold">Elite</span
+          ><span class="h2 fw-semi-bold">Corp</span>
+        </a>
+        <button
+          class="navbar-toggler p-0 border-0"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#main-nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          id="main-nav"
+          data-bs-backdrop="static"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">
+              <span class="h2 fw-bold">Elite</span
+              ><span class="h2 fw-semi-bold">Corp</span>
+            </h5>
+            <button
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#main-nav"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase ms-3 fw-semibold"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link text-uppercase ms-3 fw-semibold active"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase ms-3 fw-semibold"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase ms-3 fw-semibold"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase ms-3 fw-semibold"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <!-- START SLIDER -->
+    <div class="slider">
+      <div class="carousel slide" id="main-carousel" data-bs-ride="carousel">
+        <ol class="list-unstyled carousel-indicators">
+          <li
+            class="active"
+            data-bs-target="#main-carousel"
+            data-bs-slide-to="0"
+          ></li>
+          <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item first-slide active">
+            <div
+              class="carousel-caption d-flex flex-column justify-content-center text-center text-md-start px-2 ps-md-5 pe-md-3 gap-5"
+            >
+              <h1 class="text-white display-4 fw-bold lh-base m-0">
+                We're an Independent Design and
+                <span class="d-inline-block px-2">Development</span> Agency
+              </h1>
+              <a
+                href="#"
+                class="start-btn p-3 text-white text-uppercase text-decoration-none align-self-center fs-5 fw-semibold"
+                >Start Now</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item second-slide">
+            <div
+              class="carousel-caption d-flex align-items-center text-center text-md-start px-2 ps-sm-2 ps-md-5 pe-md-3"
+            >
+              <h1 class="text-white display-4 fw-bold lh-base">
+                Get Best Solutions with our
+                <span class="d-inline-block px-2">Professional</span> Team
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item third-slide">
+            <div
+              class="carousel-caption d-flex align-items-center text-center text-md-start px-2 ps-sm-2 ps-md-5 pe-md-3"
+            >
+              <h1 class="text-white display-4 fw-bold lh-base">
+                Connect with Us Now Over
+                <span class="d-inline-block px-2">Live</span> Chat!
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SLIDER -->
+    <!-- START FEATURES -->
+    <div class="features text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <i class="fa fa-heart fs-5 text-white rounded-circle"></i>
+            <h4 class="my-3 fw-semibold">Great Ideas</h4>
+            <p class="mb-4 lh-base text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              magni.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <i class="fa fa-cogs fs-5 text-white rounded-circle"></i>
+            <h4 class="my-3 fw-semibold">Quick Settings</h4>
+            <p class="mb-4 lh-base text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              magni.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <i class="fa fa-cloud fs-5 text-white rounded-circle"></i>
+            <h4 class="my-3 fw-semibold">Cloud Service</h4>
+            <p class="mb-4 lh-base text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              magni.
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <i class="fa fa-bookmark fs-5 text-white rounded-circle"></i>
+            <h4 class="my-3 fw-semibold">Cross Development</h4>
+            <p class="mb-4 lh-base text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              magni.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FEATURES -->
+    <!-- START OVERVIEW -->
+    <div class="overview text-center">
+      <div class="container">
+        <h2 class="h1 text-uppercase display-6 fw-bold">Company Overview</h2>
+        <p class="mx-auto my-3 text-secondary">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta,
+          laboriosam nobis accusantium eum et in est quibusdam quis unde.
+        </p>
+        <h4 class="fw-normal text-muted">Let's Start Today</h4>
+        <button
+          class="text-uppercase fw-medium py-2 px-3 focus-ring border-0 text-white mt-4"
+        >
+          View More
+        </button>
+      </div>
+    </div>
+    <!-- END OVERVIEW -->
+    <!-- START FEATURED WORK -->
+    <div class="featured-work text-center overflow-hidden">
+      <div class="container">
+        <h2 class="h1 display-6 text-uppercase fw-bold">Featured Work</h2>
+        <p class="mx-auto my-3 text-secondary w-75">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          sed eaque, officia veritatis doloremque nemo ratione ex accusamus,
+          culpa incidunt dolores fugit blanditiis nulla corrupti modi deserunt
+          ducimus. Non, a.
+        </p>
+        <ul class="list-unstyled row m-0 mt-5">
+          <li
+            class="col-lg p-2 text-uppercase fw-semibold mx-lg-1 mb-2 active"
+            data-class="all"
+          >
+            All
+          </li>
+          <li
+            class="col-lg p-2 text-uppercase fw-semibold mx-lg-1 mb-2"
+            data-class=".website"
+          >
+            Website
+          </li>
+          <li
+            class="col-lg p-2 text-uppercase fw-semibold mx-lg-1 mb-2"
+            data-class=".logo"
+          >
+            Logo
+          </li>
+          <li
+            class="col-lg p-2 text-uppercase fw-semibold mx-lg-1 mb-2"
+            data-class=".graphic"
+          >
+            Graphic
+          </li>
+          <li
+            class="col-lg p-2 text-uppercase fw-semibold mx-lg-1 mb-2"
+            data-class=".marketing"
+          >
+            Marketing
+          </li>
+          <li
+            class="col-lg p-2 text-uppercase fw-semibold mx-lg-1 mb-2"
+            data-class=".video"
+          >
+            Video
+          </li>
+        </ul>
+      </div>
+      <div class="container-fluid">
+        <div class="row m-0 mt-5 shuffle-imgs" id="shuffle-imgs">
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured1.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 website glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: bottom;"
+              data-effect="fade"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured2.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 logo glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured3.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 website glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured4.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 graphic glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured5.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 marketing glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured6.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 video glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured7.jpeg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 logo glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 p-0">
+            <img
+              src="imgs/featured8.jpg"
+              alt="Work image"
+              class="img-fluid object-fit-cover w-100 h-100 marketing glightbox"
+              data-glightbox="title: Project Name; description: .custom-desc2; descPosition: left;"
+            />
+            <div class="glightbox-desc custom-desc2">
+              <p>
+                Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante
+                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae
+              </p>
+              <a
+                href="#"
+                class="d-inline-block fw-medium p-2 text-uppercase mt-3 text-white text-decoration-none"
+                >View Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FEATURED WORK -->
+    <!-- START LATEST POST -->
+    <div class="latest-posts text-center">
+      <div class="container">
+        <h2 class="h1 display-6 text-uppercase fw-bold">Latest Post</h2>
+        <p class="mx-auto mt-3 mb-5 text-secondary w-75">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          sed eaque, officia veritatis doloremque nemo ratione ex accusamus,
+          culpa incidunt dolores fugit blanditiis nulla corrupti modi deserunt
+          ducimus. Non, a.
+        </p>
+        <div class="row row-cols-md-2 row-cols-lg-3">
+          <div class="card border-0 text-start mb-4">
+            <img
+              src="imgs/post1.jpg"
+              alt="Post image"
+              class="card-img rounded-0 object-fit-cover"
+              style="height: 250px"
+            />
+            <div class="card-body ps-0">
+              <h5 class="card-title fw-semibold lh-base mb-2">
+                Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                September 14, 2023
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                sunt eveniet. Quidem eaque vero hic praesentium corrupti facere
+                assumenda aspernatur.
+              </p>
+              <a href="#" class="card-link text-decoration-none fw-medium"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="card border-0 text-start mb-4">
+            <img
+              src="imgs/post2.jpg"
+              alt="Post image"
+              class="card-img rounded-0 object-fit-cover"
+              style="height: 250px"
+            />
+            <div class="card-body ps-0">
+              <h5 class="card-title fw-semibold lh-base mb-2">
+                Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                September 14, 2023
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                sunt eveniet. Quidem eaque vero hic praesentium corrupti facere
+                assumenda aspernatur.
+              </p>
+              <a href="#" class="card-link text-decoration-none fw-medium"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="card border-0 text-start mb-4">
+            <img
+              src="imgs/post3.jpg"
+              alt="Post image"
+              class="card-img rounded-0 object-fit-cover"
+              style="height: 250px"
+            />
+            <div class="card-body ps-0">
+              <h5 class="card-title fw-semibold lh-base mb-2">
+                Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                September 14, 2023
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                sunt eveniet. Quidem eaque vero hic praesentium corrupti facere
+                assumenda aspernatur.
+              </p>
+              <a href="#" class="card-link text-decoration-none fw-medium"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START TESTIMONIALS -->
+    <div class="testimonials">
+      <div class="container-fluid p-0">
+        <div class="carousel slide" data-bs-ride="carousel" id="testimonials">
+          <ol class="list-unstyled carousel-indicators">
+            <li
+              class="active"
+              data-bs-target="#testimonials"
+              data-bs-slide-to="0"
+            ></li>
+            <li data-bs-target="#testimonials" data-bs-slide-to="1"></li>
+            <li data-bs-target="#testimonials" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <img
+                  src="imgs/testimonial1.jpg"
+                  alt="Testimonial image"
+                  class="rounded-circle object-fit-cover"
+                />
+                <h5 class="text-uppercase mt-3 mb-1">James Jonathan</h5>
+                <h6 class="fw-semibold">Company CEO</h6>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, dicta!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Minima, dicta!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <img
+                  src="imgs/testimonial2.jpg"
+                  alt="Testimonial image"
+                  class="rounded-circle object-fit-cover"
+                />
+                <h5 class="text-uppercase mt-3 mb-1">Hosni Zaaraoui</h5>
+                <h6 class="fw-semibold">Company Manager</h6>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, dicta!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Minima, dicta!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+              >
+                <img
+                  src="imgs/testimonial3.jpg"
+                  alt="Testimonial image"
+                  class="rounded-circle object-fit-cover"
+                />
+                <h5 class="text-uppercase mt-3 mb-1">James Skott</h5>
+                <h6 class="fw-semibold">Freelancer</h6>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, dicta!Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Minima, dicta!
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#testimonials"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            data-bs-target="#testimonials"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- END TESTIMONIALS -->
+    <!-- START PRICING TABLE -->
+    <div class="pricing-table text-center">
+      <div class="container">
+        <h2 class="h1 display-6 text-uppercase fw-bold">Pricing Table</h2>
+        <p class="mx-auto mt-3 mb-5 text-secondary w-75">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          sed eaque, officia veritatis doloremque nemo ratione ex accusamus,
+          culpa incidunt dolores fugit blanditiis nulla corrupti modi deserunt
+          ducimus. Non, a.
+        </p>
+        <div class="row row-cols-lg-3">
+          <div class="card border-0 mb-4 bg-transparent order-0 col-md-6">
+            <div class="card-body bg-white py-5 px-0">
+              <h5 class="card-title fw-semibold lh-base mb-2">
+                Small Business
+              </h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Lorem Ipsum
+              </h6>
+              <p class="card-text h2 my-3 bg-light">
+                $99/<span class="fs-6 text-uppercase">Year</span>
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">10 users included</li>
+                <li class="list-group-item border-0">Email support</li>
+                <li class="list-group-item">Help center access</li>
+              </ul>
+              <a
+                href="#"
+                class="card-link text-decoration-none fw-medium my-3 text-white text-uppercase py-2 px-3 d-inline-block"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+          <div
+            class="card corporate border-0 mb-4 bg-transparent order-first order-lg-1 col-md-12"
+          >
+            <div class="card-body bg-white py-5 px-0">
+              <h5 class="card-title fw-semibold lh-base mb-2">Corporate</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Lorem Ipsum
+              </h6>
+              <p class="card-text h2 my-3 text-white">
+                $199/<span class="fs-6 text-uppercase">Year</span>
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">20 users included</li>
+                <li class="list-group-item border-0">Priority Email support</li>
+                <li class="list-group-item">Help center access</li>
+              </ul>
+              <a
+                href="#"
+                class="card-link text-decoration-none fw-medium my-3 text-white text-uppercase py-2 px-3 d-inline-block"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+          <div class="card border-0 mb-4 bg-transparent order-last col-md-6">
+            <div class="card-body bg-white py-5 px-0">
+              <h5 class="card-title fw-semibold lh-base mb-2">Enterprise</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Lorem Ipsum
+              </h6>
+              <p class="card-text h2 my-3 bg-light">
+                $299/<span class="fs-6 text-uppercase">Year</span>
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">30 users included</li>
+                <li class="list-group-item border-0">
+                  Phone and Email support
+                </li>
+                <li class="list-group-item">Help center access</li>
+              </ul>
+              <a
+                href="#"
+                class="card-link text-decoration-none fw-medium my-3 text-white text-uppercase py-2 px-3 d-inline-block"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PRICING TABLE -->
+    <!-- START WHY CHOOSE US -->
+    <div class="choose-us">
+      <div class="container-fluid p-0">
+        <div class="row row-cols-1 row-cols-md-2 m-0">
+          <div class="img p-0">
+            <img
+              src="imgs/featured2.jpg"
+              alt="image"
+              class="w-100 h-100 object-fit-cover"
+            />
+          </div>
+          <div class="text text-white py-5 px-4 text-center text-md-start">
+            <h2 class="h1 mb-4">Why Choose Us</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+              sequi aliquam placeat sunt cumque alias aspernatur, numquam beatae
+              labore laboriosam nam dolor quod, sapiente saepe.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              aut aperiam aliquam earum esse nulla?
+            </p>
+            <a
+              href="#"
+              class="read-more text-uppercase d-inline-block mt-3 py-2 px-3 text-decoration-none text-white fw-medium"
+              >View More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END WHY CHOOSE US -->
+    <!-- START STATISTICS -->
+    <div class="stats text-center">
+      <div class="container">
+        <div class="row row-cols-2 row-cols-md-4">
+          <div>
+            <i class="fa fa-user-tie fa-fw fa-3x"></i>
+            <span class="d-block fs-4 fw-bold my-1">684</span>
+            <p class="text-uppercase fw-semibold">Happy Clients</p>
+          </div>
+          <div>
+            <i class="fa fa-heart fa-fw fa-3x"></i>
+            <span class="d-block fs-4 fw-bold my-1">112</span>
+            <p class="text-uppercase fw-semibold">Amazing Tours</p>
+          </div>
+          <div>
+            <i class="fa fa-briefcase fa-fw fa-3x"></i>
+            <span class="d-block fs-4 fw-bold my-1">500</span>
+            <p class="text-uppercase fw-semibold">Partners</p>
+          </div>
+          <div>
+            <i class="fa fa-comments fa-fw fa-3x"></i>
+            <span class="d-block fs-4 fw-bold my-1">09</span>
+            <p class="text-uppercase fw-semibold">Questions Answered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END STATISTICS -->
+    <!-- START CONTACT US -->
+    <div class="contact-us py-5 text-white fs-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+            <p class="m-0">You think we're cool? Let's work together</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-end">
+            <a
+              href="#"
+              class="text-white text-decoration-none p-2 border border-white text-uppercase fs-6 fw-medium"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CONTACT US -->
+    <!-- START FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-xl-2">
+          <div class="site-info mb-4 mb-xl-0">
+            <a href="#" class="logo d-inline-block text-decoration-none mb-3">
+              <span class="h2 fs-1 fw-bold">Elite</span
+              ><span class="h2 fs-1 fw-semi-bold">Corp</span>
+            </a>
+            <p class="text-body-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+              ducimus, quibusdam magni exercitationem doloribus culpa nulla quam
+              omnis atque alias?
+            </p>
+            <a href="#" class="read-more text-decoration-none fw-semibold"
+              ><i class="fa fa-chevron-circle-right me-1"></i>Read More</a
+            >
+          </div>
+          <div class="row">
+            <div
+              class="helpful-links col-md-7 text-start text-md-center text-xl-start mb-4 mb-md-0"
+            >
+              <h2 class="mb-4 fs-4 fw-semibold">Helpful Links</h2>
+              <div class="row">
+                <div class="col">
+                  <ul class="list-unstyled text-start">
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i>About</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i>Team</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i
+                        >Pricing</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i>Privacy
+                        Policy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="list-unstyled text-start">
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i>FAQ</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i>Blog</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i>How It
+                        Works</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i
+                        >Benefits</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-decoration-none text-dark mb-2 d-block"
+                        ><i class="fa fa-chevron-circle-right me-2"></i
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="contact col-md-5 text-start text-md-center text-xl-start"
+            >
+              <h2 class="mb-4 fs-4 fw-semibold">Contact Us</h2>
+              <ul class="list-unstyled">
+                <li class="mb-4">
+                  <adress
+                    ><i class="fa fa-map-marked-alt me-2"></i>Sidi Bouzid,
+                    Tunisia</adress
+                  >
+                </li>
+                <li class="mb-4">
+                  <i class="fa fa-phone-volume me-2"></i>+216 22 222 222
+                </li>
+                <li>
+                  <a
+                    href="mailto:info@elitecorp.com?subject=Contact"
+                    class="text-decoration-none"
+                    ><i class="fa fa-envelope me-2"></i>info@elitecorp.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+    <!-- START COPYRIGHT -->
+    <div class="copyright py-3 border-top">
+      <div class="container">
+        <div class="row row-cols-lg-2">
+          <div class="text-center text-lg-start mb-3 mb-lg-0">
+            <p class="text-uppercase m-0">
+              Copyright 2023 EliteCorp &copy; All Rights Reserved
+            </p>
+          </div>
+          <div class="text-center text-lg-end">
+            <ul class="list-unstyled list-inline m-0">
+              <li class="list-inline-item">
+                <a href="#" class="me-2 fs-5"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="me-2 fs-5"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="me-2 fs-5"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="me-2 fs-5"
+                  ><i class="fab fa-google-plus"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END COPYRIGHT -->
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/glightbox/glightbox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
